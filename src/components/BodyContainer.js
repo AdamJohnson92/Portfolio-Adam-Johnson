@@ -26,7 +26,7 @@ function PortfolioBody() {
 
     return(
         <div>
-            {/* <PortfolioNav currentPage={currentPage} handlePageChange={handlePageChange}/> */}
+            <PortfolioNav currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
         </div>
     )

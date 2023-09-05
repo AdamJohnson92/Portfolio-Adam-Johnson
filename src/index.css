@@ -20,8 +20,8 @@ code {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  --cinnamon:rgb(175, 148, 97);
-  --sage:rgb(80, 136, 80);
+  --cinnamon:rgb(158, 121, 52);
+  --sage:rgb(102, 146, 102);
   --beige:beige;
 }
 
@@ -61,6 +61,22 @@ nav{
 p{
   margin-left: 10px;
   margin-right: 10px;
+}
+
+a:hover{
+  cursor: pointer;
+  transform: scale(1);
+  color:black;
+}
+
+img{
+  width:200px;
+  float: right;
+  margin:20px;
+}
+
+.active-nav{
+  font-size: 25px;
 }
 
 .footer {
