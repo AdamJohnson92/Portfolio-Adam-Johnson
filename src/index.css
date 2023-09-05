@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--cinnamon);
-  color:var(--off-white)
+  color:var(--beige)
 }
 
 code {
@@ -22,16 +22,17 @@ code {
   height: 100vh;
   --cinnamon:rgb(175, 148, 97);
   --sage:rgb(80, 136, 80);
-  --off-white:beige;
-
+  --beige:beige;
 }
 
 .header {
+  display:flex;
+  flex-direction: column;
   position: relative;
   padding-top:20px;
   top:0px;
   width: 100%;
-  height: 200px;
+  height: 160px;
   text-align: center;
   background-color: var(--sage);
   margin: 0px;
@@ -39,6 +40,27 @@ code {
 
 h1{
   margin: 0;
+  font-size: 40px;
+}
+
+h2{
+  margin: 10px;
+}
+
+li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+}
+
+p{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .footer {
