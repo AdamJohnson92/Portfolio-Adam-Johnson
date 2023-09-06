@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+import PortfolioHeader from "./Header";
 
 
 function PortfolioBody() {
@@ -25,7 +26,8 @@ function PortfolioBody() {
     const handlePageChange = (page) => setCurrentPage(page)
 
     return(
-        <div>
+        <div> 
+            <PortfolioHeader />
             <PortfolioNav currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
         </div>

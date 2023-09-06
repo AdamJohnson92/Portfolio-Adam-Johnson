@@ -7,7 +7,6 @@ import PortfolioBody from './components/BodyContainer';
 function App() {
   return (
     <div className='portfolio-app'>
-       <PortfolioHeader />
        <PortfolioBody />
        <PortfolioFooter />
     </div>
