@@ -7,12 +7,12 @@ export default function Contact() {
   const handleInputChange = (event) => {
     const name = event.target.name;
     const value = event.target.value
-    setInputs(values => ({ ...values, [name]: value })) 
-   
+    setInputs(values => ({ ...values, [name]: value }))
+
   }
 
   const handleSubmit = (event) => {
-    if (!inputs.name || !inputs.email || !inputs.message ) {
+    if (!inputs.name || !inputs.email || !inputs.message) {
       window.alert('All three fields must be complete.')
     }
     event.preventDefault()

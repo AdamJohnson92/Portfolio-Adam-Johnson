@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import PortfolioNav from "./Navigation";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
@@ -7,7 +6,7 @@ import Resume from "./pages/Resume";
 import PortfolioHeader from "./Header";
 
 
-function PortfolioBody() {
+function Body() {
 
     const [currentPage, setCurrentPage] = useState('About')
 
@@ -28,9 +27,8 @@ function PortfolioBody() {
     return(
         <div> 
             <PortfolioHeader currentPage={currentPage} handlePageChange={handlePageChange}/>
-            {/* <PortfolioNav currentPage={currentPage} handlePageChange={handlePageChange}/> */}
             {renderPage()}
         </div>
     )
 }
-export default PortfolioBody;
+export default Body;

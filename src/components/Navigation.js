@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioBody from "./BodyContainer";
+import Body from "./BodyContainer";
 
 
 function PortfolioNav({ currentPage, handlePageChange }) {
