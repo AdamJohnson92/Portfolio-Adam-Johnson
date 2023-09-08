@@ -12,6 +12,13 @@ export default function Contact() {
   }
 
   const handleSubmit = (event) => {
+    const validEmailRegex = new RegExp(/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/)
+
+    const emailCheck = validEmailRegex.test(inputs.email)
+    console.log(emailCheck)
+    if (emailCheck===false) {
+      window.alert('Not a valid email address')
+    } 
     if (!inputs.name || !inputs.email || !inputs.message) {
       window.alert('All three fields must be complete.')
     }
