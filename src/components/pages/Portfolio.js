@@ -1,15 +1,25 @@
 import React from "react";
 import dolly from "./dolly.png"
+import maki from "./maki.png"
 import PortItem from "../PortItem.js";
 
 
-const portfolioRoster = [{
+const portfolioRoster = [
+  {
   itemName: 'Dolly',
   image: dolly,
   description: "A clone of the Social Media Platform Formerly Known As Twitter. Users can 'bleet' and comment on each other's bleets.",
   gitLink: 'https://github.com/Tmollerhoj/Dolly',
   deployedLink: "https://dolly-bleeter-6a4dd49c0ee0.herokuapp.com/"
-}]
+},
+{
+  itemName: 'Maki the Menace',
+  image: maki,
+  description: "This is a simple website that I made for my cat, complete with a haiku and a collection of trading cards",
+  gitLink: 'https://github.com/AdamJohnson92/Maki-the-Menace',
+  deployedLink: "https://dolly-bleeter-6a4dd49c0ee0.herokuapp.com/"
+}
+]
 
 
 export default function Portfolio() {
