@@ -15,7 +15,7 @@ const portfolioRoster = [
 {
   itemName: 'Maki the Menace',
   image: maki,
-  description: "This is a simple website that I made for my cat, complete with a haiku and a collection of trading cards",
+  description: "This is a simple website that I made for my cat, complete with a haiku and a collection of trading cards.",
   gitLink: 'https://github.com/AdamJohnson92/Maki-the-Menace',
   deployedLink: "https://dolly-bleeter-6a4dd49c0ee0.herokuapp.com/"
 }
