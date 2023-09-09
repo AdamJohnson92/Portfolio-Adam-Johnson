@@ -6,7 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--cinnamon);
-  color:var(--beige)
+  color: var(--beige);
+  
 }
 
 code {
@@ -17,22 +18,37 @@ code {
 :root {
   display: flex;
   text-align: center;
+  align-content: center;
   margin: 0;
   padding: 0;
   position: absolute;
   width: 100vw;
-  min-height:100vh;
-  --cinnamon:rgb(158, 121, 52);
-  --sage:rgb(85, 121, 85);
-  --beige:beige;
+  min-height: 100vh;
+  --cinnamon: rgb(158, 121, 52);
+  --sage: rgb(85, 121, 85);
+  --beige: beige;
+}
+
+.portfolio-app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header {
-  display:flex;
+  display: flex;
   flex-direction: column;
   position: relative;
-  padding-top:20px;
-  top:0px;
+  padding-top: 20px;
+  top: 0px;
   width: 100vw;
   height: 160px;
   text-align: center;
@@ -40,114 +56,127 @@ code {
   margin: 0px;
 }
 
-h1{
+h1 {
   margin: 0;
   font-size: 40px;
 }
 
-h2{
+h2 {
   margin: 20px;
 }
 
-h3{
+h3 {
   margin: 20px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
-h4{
- height:25px;
- width: auto;
- float: left;
- margin-left: 10px;
- margin:0;
- color: var(--beige);
- text-decoration: none;
- text-decoration: underline;
+h4 {
+  height: 25px;
+  width: auto;
+  float: left;
+  margin-left: 10px;
+  margin: 0;
+  color: var(--beige);
+  text-decoration: none;
+  text-decoration: underline;
 }
 
-.nav{
+.nav {
   margin: 0;
   position: relative;
   bottom: 0;
-}
-
-ul{
   border-bottom: 4px solid var(--beige);
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 0px;
   margin-top: 0px;
- 
+
   background-color: var(--sage);
 }
 
-li{
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-item {
   display: inline-block;
   list-style-type: none;
   margin: 0px;
   padding: 10px;
 }
 
-.text-left{
+.page-body{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.text-left {
   text-align: left;
 }
 
-p{
-  margin-left: 20px;
+p {
+  margin-left: 10px;
   margin-right: 10px;
 }
 
-a:hover{
+a:hover {
   cursor: pointer;
   transform: scale(1);
-  color:black;
+  color: black;
 }
 
-img{
-  width:200px;
+img {
+  width: 200px;
   float: right;
-  margin:20px;
+  margin: 20px;
 }
 
-.active-nav{
-  border:2px solid var(--beige);
+
+
+.active-nav {
+  border: 2px solid var(--beige);
   border-radius: 10px 10px 0 0;
   padding: 10px;
   padding-top: 8px;
 }
 
-.portfolio-container{
-  width:100%;
-  height:100%;
+.portfolio-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   margin-bottom: 130px;
 }
 
-.portfolio-item{
+.portfolio-item {
   margin: 5px;
   margin-top: 15px;
-  width:340px;
-  height:300px;
-  border:4px solid var(--beige);
+  width: 340px;
+  height: 300px;
+  border: 4px solid var(--beige);
   border-radius: 10px;
   background-color: var(--sage);
 
 }
 
-.portfolio-item-img{
-  width:100%;
-  height:70%;
-  margin:0px;
+.portfolio-item-img {
+  width: 100%;
+  height: 70%;
+  margin: 0px;
   border-radius: 5px 5px 0px 0px;
 }
 
-.portfolio-item-text-area{
-  width:100%;
+.portfolio-item-text-area {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -155,30 +184,30 @@ img{
   text-decoration: none;
 }
 
-.portfolio-item-desc{
-  margin:15px;
+.portfolio-item-desc {
+  margin: 15px;
   margin-top: 0px;
   text-decoration: none;
   color: var(--beige);
 }
 
-.contact-form{
+.contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.form-label{
-  margin:10px;
+.form-label {
+  margin: 10px;
   float: left;
 }
 
-.form-box{
-  margin:10px;
+.form-box {
+  margin: 10px;
   padding: 5px;
 }
 
-#message-box{
+#message-box {
   width: 300px;
   height: 100px;
   display: flex;
@@ -187,32 +216,148 @@ img{
   resize: both;
 }
 
-.btn{
+.btn {
   width: 60px;
 }
 
+.resume-full{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.resume-body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+  width: 80%;  
+  padding-left:10%;
+ text-align: left;
+}
+
+.resume-contact-info{
+  margin: 0;
+}
+
+.resume-border-top{
+  border-top: 2px solid var(--beige)
+}
+
+.resume-section-header{
+  margin:0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-top:10px;
+}
+
+.resume-job{
+  float: none;
+  margin-top: 50px;
+}
+
+.resume-list{
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+
 .footer {
+  border-top: 4px solid var(--beige);
   position: absolute;
-  bottom:0px;
+  bottom: 0px;
   width: 100%;
-  height:100px;
+  height: 100px;
   text-align: center;
   background-color: var(--sage);
 }
 
-.footer-link{
-  margin:5px;
-  padding:5px;
+.footer-link {
+  margin: 5px;
+  padding: 5px;
   padding-bottom: 0;
   text-decoration: none;
   color: var(--beige);
 }
 
 @media screen and (min-width: 576px) {
-  li{
+
+  .nav-item {
     margin: 20px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
+  }
+
+  .text-left {
+    font-size: 20px;
+  }
+
+  .resume-list{
+    text-decoration: none;
+    margin-left: 50px;
   }
 }
 
-  
+@media screen and (min-width: 768px) {
+
+  .nav-item {
+    font-size: 25px;
+  }
+
+  .text-left {
+    font-size: 20px;
+  }
+
+  img {
+    width: 310px;
+    margin-top: 0px;
+  }
+
+  .portfolio-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .portfolio-item {
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 35px;
+    padding-top: 25px;
+  }
+
+  .text-left {
+    font-size: 30px;
+  }
+
+  .resume-body {
+    width: 60%;  
+    padding-left:20%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+
+  img{
+    width:150px;
+  }
+  .portfolio-item {
+    width: 280px;
+  }
+
+  .nav-item {
+    font-size: 12px;
+  }
+
+  .text-left{
+    font-size: 14px;
+  }
+
+  .portfolio-item-desc{
+    font-size: 12px;
+  }
+
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import dolly from "./dolly.png"
 import maki from "./maki.png"
+import rpg from "./rpg.PNG"
 import PortItem from "../PortItem.js";
 
 
@@ -18,6 +19,13 @@ const portfolioRoster = [
   description: "This is a simple website that I made for my cat, complete with a haiku and a collection of trading cards.",
   gitLink: 'https://github.com/AdamJohnson92/Maki-the-Menace',
   deployedLink: "https://dolly-bleeter-6a4dd49c0ee0.herokuapp.com/"
+},
+{
+  itemName: "Heroes of D'ev",
+  image: rpg,
+  description: 'A turn-based fantasy RPG game where you play as a hero and slay monsters. Made entirely with vanilla javascript.',
+  gitLink: 'https://github.com/AdamJohnson92/RPG',
+  deployedLink: 'https://adamjohnson92.github.io/RPG/'
 }
 ]
 

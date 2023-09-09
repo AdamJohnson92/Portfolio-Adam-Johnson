@@ -3,7 +3,7 @@
 export default function PortItem( props ) {
 
   return (
-    <div>
+    <>
       {props.portfolioRoster.map((item) => (
         <div className="portfolio-item">
           <a href={item.deployedLink}><img className="portfolio-item-img" src={item.image}></img></a>
@@ -12,6 +12,6 @@ export default function PortItem( props ) {
             <p className='portfolio-item-desc'> {item.description} </p></a>
         </div>
       ))}
-    </div>
+    </>
   )
 }

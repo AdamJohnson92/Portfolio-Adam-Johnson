@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import PortfolioHeader from './components/Header'
 import PortfolioFooter from './components/Footer';
 import Body from './components/BodyContainer';
 
