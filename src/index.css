@@ -161,7 +161,7 @@ img {
   margin: 5px;
   margin-top: 15px;
   width: 340px;
-  height: 300px;
+  height: 320px;
   border: 4px solid var(--beige);
   border-radius: 10px;
   background-color: var(--sage);
@@ -170,12 +170,14 @@ img {
 
 .portfolio-item-img {
   width: 100%;
-  height: 70%;
+  height: 60%;
   margin: 0px;
   border-radius: 5px 5px 0px 0px;
 }
 
 .portfolio-item-text-area {
+  border-top: 4px solid var(--beige);
+  padding-top: 15px;
   width: 100%;
   display: flex;
   flex-direction: column;
