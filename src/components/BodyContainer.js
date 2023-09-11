@@ -25,10 +25,10 @@ function Body() {
     const handlePageChange = (page) => setCurrentPage(page)
 
     return(
-        <div> 
+        <> 
             <PortfolioHeader currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
-        </div>
+        </>
     )
 }
 export default Body;
