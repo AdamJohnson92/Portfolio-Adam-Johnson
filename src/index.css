@@ -176,7 +176,8 @@ img {
 
 .portfolio-item-text-area {
   border-top: 4px solid var(--beige);
-  padding-top: 15px;
+  padding-top: 7px;
+  padding-bottom:7px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -274,7 +275,7 @@ img {
 
 .resume-list{
   text-decoration: none;
-  margin-left: 40px;
+  padding-left: 40px;
 }
 
 
