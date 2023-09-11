@@ -27,7 +27,7 @@ code {
   --cinnamon: rgb(158, 121, 52);
   --sage: rgb(85, 121, 85);
   --beige: beige;
-  /* background-color: var(--sage); */
+  background-color: var(--sage);
 }
 
 .portfolio-app{
@@ -131,7 +131,7 @@ a:hover {
 img {
   width: 200px;
   float: right;
-  margin: 20px;
+  padding: 20px;
 }
 
 
