@@ -32,6 +32,8 @@ export default function Contact() {
   return (
     <div className='body-content'>
       <h3>Contact Adam</h3>
+      <p>Email: adamgjohnson92@gmail.com</p>
+      <p>Phone: 480-421-8720</p>
       <form className="contact-form" action="mailto:adamgjohnson92@gmail.com" method="POST" encType="text/plain">
         <a className="tool-tip">
           <label className='form-label' htmlFor='name'>Name:
