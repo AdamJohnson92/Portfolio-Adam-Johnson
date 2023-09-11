@@ -5,7 +5,7 @@ import rpg from "../../assets/rpg.PNG"
 import tech from "../../assets/tech-blog.png"
 import rainy from "../../assets/rainy.png"
 import readme from "../../assets/readme-generator.png"
-import PortItem from "../PortItem.js";
+import PortItem from "../Project.js";
 
 const portfolioRoster = [
   {
@@ -20,7 +20,7 @@ const portfolioRoster = [
   image: maki,
   description: "This is a simple website that I made for my cat, complete with a haiku and a collection of trading cards.",
   gitLink: 'https://github.com/AdamJohnson92/Maki-the-Menace',
-  deployedLink: "https://dolly-bleeter-6a4dd49c0ee0.herokuapp.com/"
+  deployedLink: "https://adamjohnson92.github.io/Maki-the-Menace/"
 },
 {
   itemName: "Heroes of D'ev",
