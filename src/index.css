@@ -201,6 +201,8 @@ img {
 .form-label {
   margin: 10px;
   float: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-box {
@@ -214,7 +216,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  resize: both;
+  resize: vertical;
 }
 
 .btn {

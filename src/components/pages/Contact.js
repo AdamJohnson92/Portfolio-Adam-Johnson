@@ -46,8 +46,9 @@ export default function Contact() {
         </a>
 
         <a className="tool-tip">
-          <label className='form-label' htmlFor='message'>Message :</label>
-          <textarea className='form-box' id='message-box' type='text' name='message' value={inputs.message || ''} onChange={handleInputChange}><Tooltip anchorSelect=".tool-tip" place='top'>This is a required field.</Tooltip></textarea>
+          <label className='form-label' htmlFor='message'>Message :
+          <textarea className='form-box' id='message-box' type='text' name='message' value={inputs.message || ''} onChange={handleInputChange}><Tooltip anchorSelect=".tool-tip" place='top'>This is a required field.</Tooltip></textarea></label>
+          
         </a>
 
         <input className='btn' type='submit' value='Send' onClick={handleSubmit}
