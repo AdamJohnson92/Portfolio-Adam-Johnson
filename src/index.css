@@ -27,7 +27,7 @@ code {
   --cinnamon: rgb(158, 121, 52);
   --sage: rgb(85, 121, 85);
   --beige: beige;
-  background-color: var(--sage);
+  /* background-color: var(--sage); */
 }
 
 .portfolio-app{
@@ -69,6 +69,7 @@ h2 {
 h3 {
   margin: 20px;
   margin-top: 50px;
+  font-size: 30px;
 }
 
 h4 {
@@ -193,6 +194,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap:20px;
 }
 
 .form-label {

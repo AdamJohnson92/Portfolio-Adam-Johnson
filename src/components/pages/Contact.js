@@ -25,6 +25,9 @@ export default function Contact() {
     }
     event.preventDefault()
     console.log(inputs.name)
+
+    window.alert('Thank you for reaching out!')
+    
   }
 
   return (
