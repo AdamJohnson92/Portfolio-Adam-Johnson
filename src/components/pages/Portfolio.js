@@ -33,7 +33,7 @@ const portfolioRoster = [
 export default function Portfolio() {
 
   return (
-    <div>
+    <div className='body-content'>
       <h3>Portfolio</h3>
       <p>Click the text box to visit the GitHub Repository. Click the image to visit the deployed application.</p>
       <div className="portfolio-container">

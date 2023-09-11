@@ -27,6 +27,7 @@ code {
   --cinnamon: rgb(158, 121, 52);
   --sage: rgb(85, 121, 85);
   --beige: beige;
+  background-color: var(--sage);
 }
 
 .portfolio-app{
@@ -107,13 +108,8 @@ ul {
   padding: 10px;
 }
 
-.page-body{
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+.body-content{
+  background-color: var(--cinnamon);
 }
 
 .text-left {

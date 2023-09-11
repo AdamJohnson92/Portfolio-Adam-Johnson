@@ -27,7 +27,7 @@ export default function Contact() {
   }
 
   return (
-    <div>
+    <div className='body-content'>
       <h3>Contact Adam</h3>
       <form className="contact-form" action="mailto:adamgjohnson92@gmail.com" method="POST" encType="text/plain">
         <label className='form-label' htmlFor='name'>Name:

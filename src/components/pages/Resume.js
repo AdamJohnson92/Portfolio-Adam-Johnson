@@ -2,7 +2,7 @@ import resume from './resume.pdf'
 
 export default function Resume() {
   return (
-    <div className='resume-full'>
+    <div className='resume-full body-content'>
       <h3>Resume</h3>
       <a href={require("./resume.pdf")} download={'Adam_G_Johnson_Resume.pdf'}> Click here to download the pdf</a>
       <h2> Adam Johnson</h2>

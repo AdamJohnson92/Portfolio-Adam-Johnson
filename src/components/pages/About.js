@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
+    <div className='body-content'>
       <h3>About Me</h3>
       <img src={require('../../assets/profile-picture.jpg')}   ></img>
       <p className='text-left'>
