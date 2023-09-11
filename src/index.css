@@ -224,7 +224,17 @@ img {
 }
 
 .btn {
-  width: 60px;
+  width: 90px;
+  height: 40px;
+  background-color: var(--sage);
+  color: var(--beige);
+  border:2px solid var(--beige);
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: black;
 }
 
 .resume-full{
@@ -298,8 +308,8 @@ img {
   }
 
   .resume-list{
-    /* text-decoration: none; */
-    /* margin-left: 50px; */
+    text-decoration: none;
+    margin-left: 50px;
   }
 }
 
