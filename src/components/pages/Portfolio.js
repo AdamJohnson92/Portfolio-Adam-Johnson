@@ -1,7 +1,7 @@
 import React from "react";
-import dolly from "./dolly.png"
-import maki from "./maki.png"
-import rpg from "./rpg.PNG"
+import dolly from "../../assets/dolly.png"
+import maki from "../../assets/maki.png"
+import rpg from "../../assets/rpg.PNG"
 import PortItem from "../PortItem.js";
 
 

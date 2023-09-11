@@ -1,10 +1,8 @@
-import resume from './resume.pdf'
-
 export default function Resume() {
   return (
     <div className='resume-full body-content'>
       <h3>Resume</h3>
-      <a href={require("./resume.pdf")} download={'Adam_G_Johnson_Resume.pdf'}> Click here to download the pdf</a>
+      <a href={require("../../assets/resume.pdf")} download={'Adam_G_Johnson_Resume.pdf'}> Click here to download the pdf</a>
       <h2> Adam Johnson</h2>
       <p className='resume-contact-info'>7102 E. Oak St. Apt 12 Scottsdale, AZ 85257</p>
       <p className='resume-contact-info'>Cell: 480-421-8720</p>
@@ -17,6 +15,20 @@ export default function Resume() {
           <li>Recipience of the Moeur Award for Academic Achievement</li>
         </ul>
         <p>EdX Fullstack Flex Web Development Bootcamp through Arizona State University</p>
+        <h2 className='resume-section-header resume-border-top'>Proficiencies</h2>
+        <p>As a recent graduate of the Fullstack Flex Bootcamp, Adam has experience with the following languages, skills,  and tools:</p>
+        <ul className='resume-list'>
+          <li>The MERN full-stack for developing applications with MongoDB, Express.js, React, and Node.js</li>
+          <li> Vanilla html, css, and JavaScript</li>
+          <li>Third Party tools such as JQuery, Bootstrap, and React</li>
+          <li>Server-Side APIs</li>
+          <li>SQL and MongoDB</li>
+          <li>Handlebars View framework</li>
+          <li>PWA tools such as Webpack</li>
+          <li>Version control through Git</li>
+          <li>Collaborating with others to develop applications</li>
+        </ul>
+
         <h2 className='resume-section-header resume-border-top'>Professional Experience</h2>
         <h4 className='resume-job'>Client Success Manager (Soundblock LLC)</h4>
         <p>August 2021-January 2023</p>
