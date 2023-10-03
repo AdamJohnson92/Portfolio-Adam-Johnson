@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import PortfolioNav from "./Navigation";
 
 function PortfolioHeader({currentPage, handlePageChange}){

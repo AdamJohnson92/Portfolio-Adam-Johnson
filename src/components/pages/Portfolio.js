@@ -5,6 +5,7 @@ import rpg from "../../assets/rpg.PNG"
 import tech from "../../assets/tech-blog.png"
 import rainy from "../../assets/rainy.png"
 import readme from "../../assets/readme-generator.png"
+import hireMe from "../../assets/hireMe.png"
 import PortItem from "../Project.js";
 
 const portfolioRoster = [
@@ -44,6 +45,12 @@ gitLink:'https://github.com/AdamJohnson92/MVC-Tech-Blog'
   image: readme,
   description: "A very useful app that allows users to answer Inquirer prompts in a command-line application that will generate a README.md file.",
   gitLink: 'https://github.com/AdamJohnson92/README_Generator'
+},{
+  itemName: 'HireMe',
+  image: hireMe,
+  description: "An App that allows potential employers to view candidate profiles for tech positions.",
+  gitLink: 'https://github.com/AdamJohnson92/HireMe',
+  deployedLink: 'https://obscure-dusk-41418-6f9c2367f998.herokuapp.com/'
 }
 ]
 
