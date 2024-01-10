@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: var(--cinnamon); */
+  background-color: var(--cinnamon);
   color: var(--beige);
   
 }
@@ -34,7 +34,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
   align-content: center;
 }
 
@@ -111,6 +111,8 @@ ul {
 
 .body-content{
   background-color: var(--cinnamon);
+  width: 100vw;
+  height: min-content;
 }
 
 .text-left {
