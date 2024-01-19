@@ -25,11 +25,11 @@ const portfolioRoster = [
     gitLink: 'https://github.com/AdamJohnson92/Maki-the-Menace',
     deployedLink: "https://adamjohnson92.github.io/Maki-the-Menace/"
   }, {
-    itemName: "Heroes of D'ev",
+    itemName: "Heroes of Craet",
     image: rpg,
-    description: 'A turn-based fantasy RPG game where you play as a hero and slay monsters. Made entirely with vanilla javascript.',
-    gitLink: 'https://github.com/AdamJohnson92/RPG',
-    deployedLink: 'https://adamjohnson92.github.io/RPG/'
+    description: 'A turn-based fantasy RPG game where you play as a hero and slay monsters. Made with React.js.',
+    gitLink: 'https://github.com/AdamJohnson92/Heroes-of-Craet',
+    deployedLink: 'https://adamjohnson92.github.io/Heroes-of-Craet/'
   }, {
     itemName: 'Rainy Day Parkz',
     image: rainy,
