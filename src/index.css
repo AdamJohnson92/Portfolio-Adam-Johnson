@@ -317,6 +317,10 @@ img {
     text-decoration: none;
     margin-left: 50px;
   }
+
+  img {
+    margin: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -332,6 +336,7 @@ img {
   img {
     width: 310px;
     margin-top: 0px;
+    margin: 20px;
   }
 
   .portfolio-container {
@@ -362,10 +367,11 @@ img {
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 433px) {
 
   img{
     width:150px;
+    margin: 10px;
   }
   .portfolio-item {
     width: 280px;
