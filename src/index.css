@@ -142,8 +142,10 @@ img {
 .active-nav {
   border: 2px solid var(--beige);
   border-radius: 10px 10px 0 0;
+  border-bottom: 5px solid var(--cinnamon);
   padding: 10px;
   padding-top: 8px;
+  background-color: var(--cinnamon);
 }
 
 .portfolio-container {
