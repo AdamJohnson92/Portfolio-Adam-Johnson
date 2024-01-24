@@ -24,8 +24,8 @@ code {
   position: absolute;
   width: 100vw;
   min-height: 100vh;
-  --cinnamon: rgb(158, 121, 52);
-  --sage: rgb(85, 121, 85);
+  --cinnamon: rgb(124, 95, 41);
+  --sage: rgb(72, 102, 72);
   --beige: beige;
   background-color: var(--sage);
 }
