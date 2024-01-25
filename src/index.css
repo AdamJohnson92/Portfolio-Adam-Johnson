@@ -117,8 +117,10 @@ ul {
 
 .text-left {
   text-align: left;
-  padding-left:15px;
+  padding-left:5%;
+  padding-right: 10%;
   padding-bottom: 160px;
+  width: 75%
 }
 
 p {
