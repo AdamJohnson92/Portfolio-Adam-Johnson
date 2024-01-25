@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className='body-content'>
       <h3>About Me</h3>
-      <img src={require('../../assets/profile-picture.jpg')}   ></img>
+      <img src={require('../../assets/profile-picture.jpg')} alt='Adam Johnson, smiling at the camera.'  ></img>
       <p className='text-left'>
       Hello! My name is Adam Johnson. After graduating from Arizona State University with my Bachelor's degree in Psychology, I worked for several years as a professional musician, playing the drums all over the United States before I decided it was time to explore other career options. <br></br>
       <br></br>
