@@ -22,7 +22,6 @@ code {
   margin: 0;
   padding: 0;
   position: absolute;
-  width: 100vw;
   min-height: 100vh;
   --cinnamon: rgb(124, 95, 41);
   --sage: rgb(72, 102, 72);
@@ -64,6 +63,7 @@ h1 {
 
 h2 {
   margin: 20px;
+
 }
 
 h3 {
@@ -111,7 +111,7 @@ ul {
 
 .body-content{
   background-color: var(--cinnamon);
-  width: 100vw;
+  width: auto;
   height: min-content;
 }
 
@@ -152,7 +152,6 @@ img {
 }
 
 .portfolio-container {
-  width: 100%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
