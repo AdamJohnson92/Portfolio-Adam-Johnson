@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className='body-content'>
+    <div className='body-content text-green'>
       <h3>About Me</h3>
       <img src={require('../../assets/Adam_Johnson_Headshot.jpg')} alt='Adam Johnson, smiling at the camera.'  ></img>
       <p className='text-left'>

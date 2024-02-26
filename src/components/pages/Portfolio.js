@@ -74,7 +74,7 @@ const portfolioRoster = [
 export default function Portfolio() {
 
   return (
-    <div className='body-content'>
+    <div className='body-content text-green'>
       <h3>Portfolio</h3>
       <p>Click the text box to visit the GitHub Repository. Click the image to visit the deployed application if it is still actively deployed.</p>
       <p>(Note: Some applications are used entirely in the command line interface and have no deployments. Other applications that were deployed with Heroku may no longer have live deployments)</p>

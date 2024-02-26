@@ -1,6 +1,6 @@
 export default function Resume() {
   return (
-    <div className='resume-full body-content'>
+    <div className='resume-full body-content text-green'>
       <h3>Resume</h3>
       <a href={require("../../assets/resume.pdf")} download={'Adam_G_Johnson_Resume.pdf'}> Click here to download the pdf</a>
       <h2> Adam Johnson</h2>
@@ -30,7 +30,7 @@ export default function Resume() {
         </ul>
 
         <h2 className='resume-section-header resume-border-top'>Professional Experience</h2>
-        <h4 className='resume-job'>Client Success Manager (Soundblock LLC)</h4>
+        <h4 className='resume-job text-green'>Client Success Manager (Soundblock LLC)</h4>
         <p>August 2021-January 2023</p>
         <ul className='resume-list'>
           <li>Respond to user support tickets from clients efficiently</li>
@@ -45,7 +45,7 @@ export default function Resume() {
           </li>
           <li>Communicate suggested direction of development to the company CEO</li>
         </ul>
-        <h4 className='resume-job'>Customer Care Representative (CVS Health)</h4>
+        <h4 className='resume-job text-green'>Customer Care Representative (CVS Health)</h4>
         <p>September 2020-August 2021</p>
         <ul className='resume-list'>
           <li>Answer customer service calls regarding customers’ prescription benefits and Medicare Part D
@@ -58,7 +58,7 @@ export default function Resume() {
             inquiries on first contact
           </li>
         </ul>
-        <h4 className='resume-job'>Percussion Instructor (Coronado High School)</h4>
+        <h4 className='resume-job text-green'>Percussion Instructor (Coronado High School)</h4>
         <p>July 2010-May 2021</p>
         <ul className='resume-list'>
           <li>Instruct high school students in marching percussion</li>

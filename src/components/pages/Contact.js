@@ -48,15 +48,15 @@ export default function Contact() {
   }
 
   return (
-    <div className='body-content'>
+    <div className='body-content text-green'>
       <h3>Contact Adam</h3>
       <h2>Email: adamgjohnson92@gmail.com</h2>
       <h2>Phone: 480-421-8720</h2>
       <h2>
-        <a className="footer-link" href="https://www.linkedin.com/in/adam-johnson-61769b21a/">LinkedIn</a>
+        <a className="text-green" href="https://www.linkedin.com/in/adam-johnson-61769b21a/">LinkedIn</a>
       </h2>
       <h2>
-        <a className="footer-link" href="https://github.com/AdamJohnson92">GitHub</a>
+        <a className="text-green" href="https://github.com/AdamJohnson92">GitHub</a>
       </h2>
 
 
