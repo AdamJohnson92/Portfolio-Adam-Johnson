@@ -136,6 +136,11 @@ a:hover {
   color: black;
 }
 
+.body-link:hover {
+  cursor: pointer;
+  color: var(--cinnamon);
+}
+
 img {
   width: 200px;
   float: right;
