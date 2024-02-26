@@ -2,7 +2,10 @@ export default function Resume() {
   return (
     <div className='resume-full body-content text-green'>
       <h3>Resume</h3>
-      <a className="body-link text-green"href={require("../../assets/resume.pdf")} download={'Adam_G_Johnson_Resume.pdf'}> Click here to download the pdf</a>
+      <p>
+        <a className="body-link text-green"href={require("../../assets/resume.pdf")} download={'Adam_G_Johnson_Resume.pdf'}> Click here to download the pdf</a>
+      </p>
+      
       <h2> Adam Johnson</h2>
       <p className='resume-contact-info'>Scottsdale, AZ 85257</p>
       <p className='resume-contact-info'>Cell: 480-421-8720</p>
