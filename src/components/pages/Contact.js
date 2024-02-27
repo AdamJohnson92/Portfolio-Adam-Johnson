@@ -50,14 +50,14 @@ export default function Contact() {
   return (
     <div className='body-content text-green'>
       <h3>Contact Adam</h3>
-      <h2>Email: adamgjohnson92@gmail.com</h2>
-      <h2>Phone: 480-421-8720</h2>
-      <h2>
+      <h4 className="contact-item">Email: adamgjohnson92@gmail.com</h4>
+      <h4 className="contact-item">Phone: 480-421-8720</h4>
+      <h4 className="contact-item">
         <a className="text-green body-link" href="https://www.linkedin.com/in/adam-johnson-61769b21a/">LinkedIn</a>
-      </h2>
-      <h2>
+      </h4>
+      <h4 className="contact-item">
         <a className="text-green body-link" href="https://github.com/AdamJohnson92">GitHub</a>
-      </h2>
+      </h4>
 
 
       {/* <form className="contact-form" action="mailto:adamgjohnson92@gmail.com" method="POST" encType="text/plain">
