@@ -148,13 +148,15 @@ img {
 
 
 .active-nav {
- 
   border-radius: 10px 10px 0 0;
   border-bottom: 4px solid white;
   padding: 10px;
-  padding-top: 8px;
   background-color: white;
   color: var(--sage)
+}
+
+.inactive-nav {
+  padding: 10px;
 }
 
 .portfolio-container {

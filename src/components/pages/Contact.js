@@ -59,8 +59,8 @@ export default function Contact() {
         <a className="text-green body-link" href="https://github.com/AdamJohnson92">GitHub</a>
       </h4>
 
-
-      {/* <form className="contact-form" action="mailto:adamgjohnson92@gmail.com" method="POST" encType="text/plain">
+      <h3>Send Adam a Message</h3>
+      <form className="contact-form" action="mailto:adamgjohnson92@gmail.com" method="POST" encType="text/plain">
         <a className="tool-tip">
           <label className='form-label' htmlFor='name'>Name:
             <input className='form-box' type='text' name='name' value={nameForm || ''} onChange={handleInputChange}></input><Tooltip anchorSelect=".tool-tip" place='top'>This is a required field.</Tooltip>
@@ -75,15 +75,15 @@ export default function Contact() {
 
         <a className="tool-tip">
           <label className='form-label' htmlFor='message'>Message :
-          <textarea className='form-box' id='message-box' type='text' name='message' value={messageForm || ''} onChange={handleInputChange}><Tooltip anchorSelect=".tool-tip" place='top'>This is a required field.</Tooltip></textarea></label>
-          
+            <textarea className='form-box' id='message-box' type='text' name='message' value={messageForm || ''} onChange={handleInputChange}><Tooltip anchorSelect=".tool-tip" place='top'>This is a required field.</Tooltip></textarea></label>
+
         </a>
 
         <input className='btn' type='submit' value='Send' onClick={handleSubmit}
         />
 
 
-      </form> */}
+      </form>
     </div>
   );
 }
