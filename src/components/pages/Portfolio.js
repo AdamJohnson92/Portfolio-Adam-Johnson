@@ -54,13 +54,6 @@ const portfolioRoster = [
     gitLink: 'https://github.com/AdamJohnson92/README_Generator',
     altTag: 'A series of prompts with the users response. These prompts ask questions about what should be generated for the README.md file.'
   }, {
-    itemName: 'HireMe',
-    image: hireMe,
-    description: "An App that allows potential employers to view candidate profiles for tech positions.",
-    gitLink: 'https://github.com/AdamJohnson92/HireMe',
-    deployedLink: 'https://obscure-dusk-41418-6f9c2367f998.herokuapp.com/',
-    altTag: 'A logo with a magnifying glass that contains a network of people, all connected by lines indicating the network. Below the logo is the words "Hire Me: Find Your Perfect Candidate".'
-  } , {
     itemName: 'Work Day Scheduler',
     image: workScheduler,
     description: "An hourly scheduler that changes colors dynamically according to the current time.",
